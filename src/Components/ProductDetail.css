@@ -1,0 +1,20 @@
+.ProductDetail-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.ProductDetail-card {
+  background-color: rgb(237, 237, 237);
+  width: 370px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.thumbnail {
+  height: 110px;
+}

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+main {
+  background-image: linear-gradient(
+    to left top,
+    #ff0000,
+    #e5004b,
+    #b3066d,
+    #763074,
+    #413560,
+    #362e4a,
+    #2b2636,
+    #201f22,
+    #1a191b,
+    #141314,
+    #0c0b0b,
+    #000000
+  );
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.Home-content {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Home-inside {
+  width: 80vw;
+}
+.Heading {
+  font-size: 4.5rem;
+  font-weight: 200;
+
+  color: white;
+}
+.description {
+  font-size: 1.1rem;
+  color: white;
+}
+.Home-title {
+  font-weight: 700;
+  background: linear-gradient(to left, #95abee, #ddbeff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.Home-Products {
+  height: 60px;
+  width: 150px;
+  background-color: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.Home-Products:hover {
+  transform: translateY(-5px);
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}

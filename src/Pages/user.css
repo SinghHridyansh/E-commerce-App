@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+.main {
+  background-image: linear-gradient(
+    to left bottom,
+    #ff0000,
+    #e5004b,
+    #b3066d,
+    #763074,
+    #413560,
+    #362e4a,
+    #2b2636,
+    #201f22,
+    #1a191b,
+    #141314,
+    #0c0b0b,
+    #000000
+  );
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s ease-in-out;
+}
+
+.user-sections {
+  display: flex;
+  justify-content: center;
+  color: white;
+  /* background-color: #b3066d; */
+}
+.user-section-1 {
+  width: 90%;
+}
+.radio-buttons {
+  display: flex;
+  gap: 50px;
+}
+table {
+  width: 100%;
+}
+th {
+  background: rgb(33, 33, 33);
+  height: 40px;
+}
+tr {
+  margin-top: 50px;
+}
+td {
+  text-align: center;
+  /* background-color: aqua; */
+  width: 25%;
+  height: auto;
+}
+.loading {
+  color: white;
+  font-family: 2rem;
+}

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+
+.login-main {
+  background-color: grey;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+}
+.login-form {
+  height: 100vh;
+  background-color: aqua;
+  width: 50%;
+}
+.login-side {
+  height: 100vh;
+  width: 50%;
+  background-color: blueviolet;
+}

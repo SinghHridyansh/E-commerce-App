@@ -1,0 +1,44 @@
+.NavBar-main {
+  /* background-color: blueviolet; */
+  /* background: linear-gradient(to left, #95abee94, #ddbeff79); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0px 0px 30px 30px;
+  padding-left: 5vh;
+  padding-right: 3vh;
+  height: 12vh;
+}
+.weblogo {
+  height: 10vh;
+}
+.weblogo:hover {
+  cursor: pointer;
+}
+.third-section {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.interactive-button {
+  border: none;
+  height: 3.5vh;
+  background-color: transparent;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.interactive-button:hover {
+  text-shadow: 0 0 10px #fff, 0 0 5px #fff;
+  transition: 0.2s ease-in-out;
+}
+.logout {
+  border: none;
+  height: 1rem;
+  width: 2rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.428);
+}

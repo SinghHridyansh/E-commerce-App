@@ -1,0 +1,33 @@
+{apidata != undefined ? (
+              <>
+                <div>
+                  <br />
+                  {/* <h4>Data is here.</h4> */}
+                  <table>
+                    <tr>
+                      <th>Image</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Gender</th>
+                    </tr>
+                  </table>
+                </div>
+              </>
+            ) : (
+              <div>Loading...</div>
+            )}
+
+
+
+            const [category, setcategory] = useState([]);
+  
+  useEffect(() => {
+    getcategory();
+  }, []);
+
+  const getcategory = async () => {
+    const response = await fetch(
+      `https://fakestoreapi.com/products/categories`
+    );
+    const data = await response.json();
+  };
